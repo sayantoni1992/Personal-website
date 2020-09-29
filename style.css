@@ -1,0 +1,280 @@
+
+/* Styling for the header */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* Setting all elements to behave as border-box elements */
+
+* {
+    box-sizing: border-box;
+}
+
+/* General styling for all pages */
+
+body, html {
+    height: 100%;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    background-color: rgb(94, 114, 230);
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+    height: 80px;
+    line-height: 30px;
+    /*position: absolute;
+    top: 0;
+    /*display: block;*/
+    text-transform: uppercase;
+}
+
+.header-nav li {
+    float: right;
+    margin-top: 0;
+    margin-right: 5px;
+    width: 20px;
+}
+
+.header-title {
+    text-align: left;
+    font-size: 25px;
+    float: left;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.header-nav {
+    text-align: right;
+    display: block;
+}
+
+.header-nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#header a:hover {
+    color: #F6A623;
+}
+
+.highlight {
+    font-weight: bold;
+    }
+
+/*--------------------Certificate Container-------------------------*/
+
+.certificate-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    /*background-color: rgb(169, 181, 245);*/
+    color:black;
+    font-size: 19px;
+    /*padding-top: 20px;*/
+}
+
+.certificate-item {
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.certificate-item p {
+    padding-right: 15px;
+}
+
+.box-image {
+    width : 100%;
+    height: 500px;
+    
+}
+.cert-container {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#css {
+    background-color: rgb(242, 223, 239);
+    padding-left: 20px;
+}
+
+#google {
+    background-color: rgb(155, 248, 150);
+    padding-left: 20px;
+}
+
+#html-text {
+    background-color: rgb(246, 255, 117);
+    padding-left: 20px;
+}
+
+#javascript-text {
+    background-color: rgb(248, 168, 179);
+    padding-left: 20px;
+}
+
+/*------------------------About Me Container---------------------------------*/
+
+.about-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    /*background-color: rgb(169, 181, 245);*/
+    color:black;
+    font-size: 19px;
+    padding-top: 20px;
+}
+
+.about-item {
+    width: 40%;
+    height: auto;
+    background-color: white;
+    /*border: 1px solid black;*/
+    margin-left: 20px;
+}
+
+.my-image {
+    width : 80%;
+    height: 530px;
+    align-content: center;
+    
+}
+
+
+
+/*------------------------Connect with me----------------------------------*/
+
+#footer {
+    background-color:  rgb(94, 114, 230);
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+    height: auto;
+    width: 100%;
+    text-align: left;
+}
+
+#footer a:hover {
+    color: #F6A623;
+}
+
+#footer .column a {
+    display: block;
+    max-width: 100px;
+}
+
+.column {
+    min-width: 200px;
+    max-width: 280px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-icons .fa {
+    margin-right: 30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.about-me-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.cv-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100%;
+}
+
+/*-------------------CV Container----------------------*/
+.cv-container {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.cv-wrapper {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.cv-pic {
+    text-align : center;
+    text-transform: uppercase;
+} 
+
+.cv-pic img {
+    height: 20%;
+    width: 20%;
+}
+
+.cv-container {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cv-content h3 {
+    text-align: center;
+}
+
+
+
+.accordion-item {
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+    background: linear-gradient(to bottom, #fff, #f9f9f9);
+    padding: 10px;
+    position: relative;
+    align-items: center;
+    min-height: 51px;
+    list-style-type: none;
+    text-transform: none;
+}
+
+.accordion-item:hover {
+    cursor: pointer;
+}
+
+.accordion-item i {
+    float: right;
+    position: absolute;
+    bottom: 40%;
+    right: 10px;
+}
+
+.accordion-panel {
+    padding: 0 18px;
+    background-color: #f4f4f4;
+    display: none;
+    height: auto;
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 10px;
+}
+
+.accordion-panel article p {
+    padding: 10px;
+}

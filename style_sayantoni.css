@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(img/grass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /*margin: auto;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.bg-text a {
+    text-decoration: none;
+    color : white;
+}
+
+
+.bg-text {
+    width: 80%;
+    /*padding: 20px;*/
+    height: 40%;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    align-self: center;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*text-align: center;*/
+}
+
+.landing-btn {
+    background-color: slategray;
+    opacity: 0.5;
+    border: none;
+    padding: 16px 32ppx;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.5em;
+    transition: 0.5s;
+    font-weight: normal;
+}
+
+.landing-btn:hover {
+    opacity: 1.0;
+}
+
