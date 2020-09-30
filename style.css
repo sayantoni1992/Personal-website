@@ -19,6 +19,7 @@ body, html {
 #header {
     background-color: rgb(94, 114, 230);
     padding: 10px;
+    padding-bottom: 0px;
     margin: 0px 0px 20px 0px;
     height: 80px;
     line-height: 30px;
@@ -139,11 +140,13 @@ body, html {
     color:black;
     font-size: 19px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .about-item {
     width: 40%;
     height: auto;
+    font-size: 16px;
     background-color: white;
     /*border: 1px solid black;*/
     margin-left: 20px;
@@ -151,7 +154,7 @@ body, html {
 
 .my-image {
     width : 80%;
-    height: 490px;
+    height: 450px; /* change it*/
     align-content: center;
     
 }
