@@ -141,6 +141,7 @@ body, html {
     font-size: 19px;
     padding-top: 10px;
     padding-bottom: 10px;
+    position: relative;
 }
 
 .about-item {
@@ -150,12 +151,14 @@ body, html {
     background-color: white;
     /*border: 1px solid black;*/
     margin-left: 20px;
+    position: relative;
 }
 
 .my-image {
     width : 80%;
     height: 450px; /* change it*/
     align-content: center;
+    position: relative;
     
 }
 
